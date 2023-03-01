@@ -153,14 +153,14 @@ $(function(){
     let scrollPoint = $(scrollAnchor).offset().top;
 
     if(scrollAnchor === '#about') {
-      scrollPoint = scrollPoint - 50;
+      scrollPoint = scrollPoint - 90;
     } 
     if(scrollAnchor === '#select') {
-      scrollPoint = scrollPoint - 65;
+      scrollPoint = scrollPoint - 90;
     } 
 
     if(scrollAnchor === '#contacts') {
-      scrollPoint = scrollPoint - 65;
+      scrollPoint = scrollPoint - 90;
     }
 
     $('html, body').animate({scrollTop: scrollPoint}, 3500);

@@ -719,8 +719,9 @@ body {
 
 .select__text {
   overflow: hidden;
-  line-clamp: 4;
+  line-clamp: 10;
   height: 100px;
+  margin-bottom: 50px;
 }
 
 .select__link {
@@ -1011,13 +1012,14 @@ body {
     max-width: 100%;
   }
   .about__achievements{
-    justify-content: start;
+    justify-content: center;
   }
-  .about__text1{
+  .about__text1:not(:last-child){
     margin-right: 30px;
   }
+
   .about__text1 span{
-    font-size: 24px;
+    font-size: 32px;
   }
   .about__img{
     width: 80%;
