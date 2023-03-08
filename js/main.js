@@ -5,7 +5,7 @@ $(function(){
     arrows: true,
     slidesToShow: 4,
     fade: false,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
     {
@@ -45,7 +45,7 @@ $(function(){
     dots: true,
     arrows: true,
     slidesToShow: 2,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
     {
@@ -85,7 +85,7 @@ $(function(){
     // infinite: true,
     // slidesToShow: 6,
     // slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
     {
@@ -182,4 +182,4 @@ $(function(){
 
 
 
-var mixer = mixitup('.gallery__content');
+// var mixer = mixitup('.gallery__content');
